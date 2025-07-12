@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #665af5;
+}
+
+#mainContainer{
+    margin-top: 100px;
+    background-color: rgb(241, 241, 241);
+    width: 450px;
+    height: 560px;
+    border-radius: 25px;
+    box-shadow: #3b3580 0px 0px 20px 10px;
+}
+
+#amountInput{
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(165, 165, 165);
+    height: 50px;
+}
+
+#fromInput{
+    width: 150px;
+    height: 50px;
+    margin: 0;
+    margin-left: 25px;
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(165, 165, 165);
+    display: inline;
+    margin-right: 20px;
+}
+
+#toInput{
+    width: 150px;
+    height: 50px;
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+    border-color: rgb(165, 165, 165);
+    display: inline;
+    margin-left: 20px;
+}
+
+#resultText{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+#getExchange{
+    width: 385px;
+    height: 65px;
+    margin-top: 40px;
+    background-color: #5d52e1;
+    color: white;
+    display: block;
+    font-size: 25px;
+}
+
+#getExchange:hover{
+    background-color: #3b3580;
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
